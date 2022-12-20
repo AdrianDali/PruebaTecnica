@@ -19,7 +19,7 @@ def get_last_value(pollutant):
         
         return id_result
     elif unfiltered_result.status_code == 404:
-        print('Not Encontrado. ')
+        print('No Encontrado. ')
 
 
 def get_requested_values():
@@ -34,7 +34,7 @@ def get_requested_values():
                 return dic 
     
     elif unfiltered_result.status_code == 404:
-        print('Not Encontrado. ')
+        print('No Encontrado. ')
 
 
 if __name__ == '__main__':
